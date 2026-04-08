@@ -1,0 +1,31 @@
+# Dépendances du microservice IA Python
+# Installez avec : pip install -r requirements.txt
+
+# --- Framework Web ---
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+
+# --- Validation des données ---
+pydantic==2.7.1
+
+# --- Machine Learning ---
+scikit-learn==1.4.2
+pandas==2.2.2
+joblib==1.4.2
+
+# --- Traitement du Langage Naturel ---
+spacy==3.7.4
+# Après l'installation, téléchargez le modèle français :
+# python -m spacy download fr_core_news_sm
+# Ou le modèle anglais :
+# python -m spacy download en_core_web_sm
+
+# --- LLM / RAG ---
+langchain==0.1.20
+langchain-community==0.0.38
+openai==1.30.1
+# Alternative : mistralai==0.1.8
+
+# --- Utilitaires ---
+python-dotenv==1.0.1
+httpx==0.27.0
