@@ -1,0 +1,26 @@
+# Bytecode Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Environnements virtuels
+.env
+.venv/
+venv/
+env/
+
+# Fichiers de configuration locaux
+.env.local
+
+# Modèles sauvegardés (trop lourds pour git — utiliser Git LFS si nécessaire)
+# saved_models/*.pkl
+
+# Éditeurs et IDE
+.idea/
+.vscode/
+*.swp
+
+# Système
+.DS_Store
+Thumbs.db
